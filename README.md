@@ -1,2 +1,8 @@
 # blog-cms
-A blog web app w/ comments section
+A simple blog web app w/ comments section
+
+## Tech Stack
+
+### Front-End
+- [Astro](https://astro.build)
+- [TailwindCSS](https://tailwindcss.com)
