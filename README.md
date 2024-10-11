@@ -14,7 +14,7 @@ A simple blog web app w/ comments section
 
 It will also include...
 
-- __CMS___: All posts will be stored/retrieved on a CMS.
+- __CMS__: All posts will be stored/retrieved on a CMS.
 - __User Authentication__: Only authenticated users will be able to comment.
 - __Permissions__: Users can be restricted/banned if the rules aren't followed _strictly_.
 
