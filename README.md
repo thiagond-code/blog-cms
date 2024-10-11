@@ -11,3 +11,29 @@
 
 # blog-cms
 A simple blog web app w/ comments section
+
+It will also include...
+
+- __CMS___: All posts will be stored/retrieved on a CMS.
+- __User Authentication__: Only authenticated users will be able to comment.
+- __Permissions__: Users can be restricted/banned if the rules aren't followed _strictly_.
+
+## Basic Configuration
+
+### Front-End
+- [Astro](https://astro.build) + [TailwindCSS](https://tailwindcss.com)
+
+
+### Back-End
+
+- [Node.js](https://nodejs.org) + Database (e.g., _MongoDB_, _Supabase_, etc.)
+
+---
+
+Inside your Astro project folder, run `npm run dev` or `yarn dev` to spin up a server.
+
+---
+
+Any suggestions, advices or (constructive) complaints are always welcome! 🙂
+
+Happy coding! 💻
