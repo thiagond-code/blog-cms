@@ -1,1 +1,1 @@
-export default { extends: ['@commitlint/config-conventional', 'gitmoji'] };
+export default { extends: ['@commitlint/config-conventional'] };
