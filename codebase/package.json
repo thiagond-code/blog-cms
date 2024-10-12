@@ -8,6 +8,8 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "eslint": "eslint --ext .js,.astro src && eslint 'src/**/*.{js,astro}'",
+    "prettier": "yarn prettier . --write",
     "prepare": "husky",
     "cm": "cz"
   },
@@ -30,9 +32,16 @@
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
+    "@typescript-eslint/parser": "^8.8.1",
     "commitizen": "^4.3.1",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^9.1.6"
+    "eslint": "^9.12.0",
+    "eslint-plugin-astro": "^1.2.4",
+    "eslint-plugin-jsx-a11y": "^6.10.0",
+    "gitmoji-cli": "^9.5.0",
+    "husky": "^9.1.6",
+    "prettier": "^3.3.3",
+    "prettier-plugin-astro": "^0.14.1"
   },
   "config": {
     "commitizen": {
